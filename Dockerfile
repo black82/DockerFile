@@ -1,5 +1,5 @@
 FROM dpage/pgadmin4 as pgadmin4
-ENV PGADMIN_DEFAULT_EMAIL=admin
+ENV PGADMIN_DEFAULT_EMAIL=blackrailean@gmail.com
 ENV PGADMIN_DEFAULT_PASSWORD=admin
 USER root 
 RUN chown -R 1000640000:1000640000 /pgadmin4 && \
