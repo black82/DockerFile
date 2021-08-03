@@ -1,6 +1,6 @@
 FROM dpage/pgadmin4 as pgadmin4
 ENV PGADMIN_DEFAULT_EMAIL=blackrailean@gmail.com
-ENV PGADMIN_DEFAULT_PASSWORD=admin
+ENV PGADMIN_DEFAULT_PASSWORD=Admin1111
 USER root 
 RUN chown -R 1000640000:1000640000 /pgadmin4 && \
     sed -i 's/5050/1000720000/g' /etc/passwd && \
