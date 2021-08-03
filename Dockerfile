@@ -7,6 +7,4 @@ ENV PG_ADMIN_PORT=5050
 
 EXPOSE 5050
 
-ENTRYPOINT ["/entrypoint.sh"]
-
 
